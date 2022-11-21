@@ -47,3 +47,21 @@
     cursor: pointer;
 
 }
+
+.gpt3__navbar-sign button, .gpt3__navbar-menu_container button {
+    /* changing set width and hight to padding makes it more responsive */
+    padding: 0.5rem 1rem;
+    left: 1153px;
+    top: 55px;
+
+    background: #FF4820;
+    color:#fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
